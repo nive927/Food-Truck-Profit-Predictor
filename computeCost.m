@@ -9,8 +9,8 @@ m = length(y); % number of training examples
 % Need to return the following variables correctly 
 J = 0;
 
-% Instructions: Compute the cost of a particular choice of theta
-%               You should set J to the cost.
+% Compute the cost of a particular choice of theta
+%              Set J to the cost.
 
 predictions = X * theta;
 m = length(y);
